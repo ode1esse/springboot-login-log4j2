@@ -1,0 +1,4 @@
+FROM java:8
+VOLUME /tmp/tomcat
+ADD springboot-login-log4j2-1.0-SNAPSHOT.jar springboot-login-log4j2.jar
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/springboot-login-log4j2.jar"]
