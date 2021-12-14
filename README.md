@@ -18,9 +18,13 @@ https://github.com/Ode1esse/springboot-login-log4j2-docker
 
 ![image-20211214204044004](resource/README/media/image-20211214204044004.png)
 
+运行之后访问http://127.0.0.1:9090
 
+![image-20211214205005122](resource/README/media/image-20211214205005122.png)
 
+在登陆失败时会产生一条错误日志
 
+![image-20211214205221675](resource/README/media/image-20211214205221675.png)
 
-
+![image-20211214205341001](resource/README/media/image-20211214205341001.png)
 
