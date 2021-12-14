@@ -9,6 +9,7 @@
 https://github.com/Ode1esse/springboot-login-log4j2-docker
 
 ### 本地调试
+下载release的zip包，用idea打开。
 
 需要起一个mysql服务，建立login数据库，在login数据库中创建user表，在user表中添加id,username,password字段，其中id字段的属性为自动递增。
 
