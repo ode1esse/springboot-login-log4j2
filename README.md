@@ -9,8 +9,12 @@
 https://github.com/Ode1esse/springboot-login-log4j2-docker
 
 ### 本地调试
+创建login数据库
+create database login default character set utf8mb4 collate utf8mb4_general_ci;
+导入init.sql
 
-运行之后访问http://127.0.0.1:9090
+
+运行项目之后访问http://127.0.0.1:9090
 
 ![image-20211214205005122](resource/README/media/image-20211214205005122.png)
 
